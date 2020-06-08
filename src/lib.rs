@@ -1,3 +1,7 @@
+#![no_std]
+use std::prelude::v1::*;
+extern crate sgx_tstd as std;
+
 use stable_deref_trait::StableDeref;
 use std::io;
 use std::mem;
